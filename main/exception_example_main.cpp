@@ -11,12 +11,12 @@
 #include "esp_log.h"
 #include "driver/dac.h"
 
-#include "GUI_utils.h" 
-#include "RFID_utils.h"
-#include "IPC_utils.h"
-#include "PWM_utils.h"
-#include "WIFI_utils.h"
-#include "string_utils.h"
+#include "GUI_utils.hpp" 
+#include "RFID_utils.hpp"
+#include "IPC_utils.hpp"
+#include "PWM_utils.hpp"
+#include "WIFI_utils.hpp"
+#include "string_utils.hpp"
 
 #define MAIN_TAG "MAIN"
 GuiScreen_t curr_scr = SCHLUMBERGER_SCREEN;
